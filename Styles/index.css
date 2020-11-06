@@ -1,0 +1,79 @@
+* {
+  background: orange;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.header {
+  font-size: 48px;
+}
+.scoreBoardContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 200px;
+  height: auto;
+  margin-top: 24px;
+}
+.scoreBoardContent p {
+  font-size: 24px;
+}
+.scoreBoardContent span {
+  font-size: 24px;
+}
+.gameContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.gameContent .gameHeader {
+  font-size: 40px;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-top: 50px;
+}
+.imageContainer button {
+  border: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.imageContainer button:hover {
+  opacity: 1;
+}
+.imageContainer img {
+  width: 75%;
+  height: auto;
+}
+.restartContent {
+  margin-top: 50px;
+}
+.restartBtn {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.restartBtn:hover {
+  border-color: white;
+  color: white;
+  background: black;
+}
